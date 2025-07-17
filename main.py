@@ -10,7 +10,7 @@ mbti_data = {
         ],
         "reason": "INTJ는 깊이 있는 사유와 철학적 내용을 선호하므로, 구조적이고 사상적인 고전을 추천합니다.",
         "travel": "노르웨이 피오르 – 한적하고 장엄한 자연 속에서 사색하며 여유를 즐기기 좋습니다.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Norway_Geirangerfjord.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/40/Geirangerfjord_2007_05_23.jpg"
     },
     "INFP": {
         "traits": "이상주의적이며 감성적인 내면 세계를 가진 유형. 의미와 가치를 중요하게 여깁니다.",
@@ -21,7 +21,7 @@ mbti_data = {
         ],
         "reason": "INFP는 감정과 철학이 조화를 이루는 작품에서 깊은 울림을 느낄 수 있어 내면 성찰형 고전을 추천합니다.",
         "travel": "체코 프라하 – 예술과 감성이 흐르는 도시에서 영감을 얻기에 안성맞춤입니다.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/4/47/Prague_Castle_-_View_from_charles_bridge.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/2/25/Prague_Montage.png"
     },
     "ENTP": {
         "traits": "호기심 많고 에너지 넘치는 토론가. 유쾌하고 재치 있는 스타일을 선호합니다.",
@@ -32,7 +32,7 @@ mbti_data = {
         ],
         "reason": "ENTP는 풍자와 실험적 구조, 도전적인 내용에 흥미를 느끼므로 유쾌하고 지적인 고전을 추천합니다.",
         "travel": "도쿄 – 끊임없이 새로운 자극이 있는 도시로, ENTP의 호기심을 만족시켜줍니다.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/9/90/Shibuya_Scramble_Crossing_2018.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Shibuya_Crossing_2019_%28cropped%29.jpg"
     },
     "ISFJ": {
         "traits": "헌신적이고 온화한 수호자. 안정감 있는 관계와 따뜻한 이야기를 선호합니다.",
@@ -43,7 +43,7 @@ mbti_data = {
         ],
         "reason": "ISFJ는 정서적으로 따뜻하고 인간 중심적인 이야기를 선호하므로 감성적인 고전을 추천합니다.",
         "travel": "교토 – 고요한 사찰과 전통이 살아 있는 도시에서 마음의 안정을 찾을 수 있습니다.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Kiyomizu-dera_in_Kyoto.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Kiyomizu-dera_2010_01.JPG"
     }
 }
 
