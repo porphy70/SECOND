@@ -168,7 +168,7 @@ st.set_page_config(
     page_icon="📚"
 )
 
-st.title("📚 MBTI 별 고전 책 + 여름 여행지 추천")
+st.title("📚 MBTI 고전 책 + 여름 여행지 추천")
 st.markdown("당신의 MBTI 유형에 딱 맞는 고전 책 3권과 여름 여행지를 추천해드릴게요!")
 
 selected_mbti = st.selectbox("당신의 MBTI는 무엇인가요?", list(mbti_data.keys()))
