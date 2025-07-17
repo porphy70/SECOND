@@ -1,5 +1,6 @@
 import streamlit as st
 
+# MBTI별 데이터: 성격, 책, 추천 이유, 여행지
 mbti_data = {
     "INTJ": {
         "traits": "전략적이고 독립적인 사색가. 큰 그림을 보며 체계적인 계획을 세우는 것을 좋아합니다.",
@@ -43,19 +44,38 @@ mbti_data = {
     }
 }
 
-st.set_page_config(page_title="MBTI 고전 책 & 여름 여행 추천기", page_icon="📚")
+# ✅ 페이지 설정 (여기 오류 있었던 부분을 정확히 고쳤습니다)
+st.set_page_config(
+    page_title="MBTI 고전 책 & 여름 여행 추천기",
+    page_icon="📚"
+)
 
+# 제목 출력
 st.title("📚 MBTI 고전 책 + 여름 여행 추천기")
 st.markdown("당신의 MBTI 유형에 딱 맞는 고전 책 3권과 여름 여행지를 추천해드릴게요!")
 
+# MBTI 선택
 selected_mbti = st.selectbox("당신의 MBTI는 무엇인가요?", list(mbti_data.keys()))
 
 if selected_mbti:
+    # 풍선 효과 🎈
     st.balloons()
+
     mbti_info = mbti_data[selected_mbti]
     
+    # 성격 설명
     st.subheader(f"🧠 {selected_mbti}의 성격 특징")
     st.markdown(f"_{mbti_info['traits']}_")
-    
+
+    # 고전 책 추천
     st.subheader("📖 추천 고전 3권")
-    f
+    for i, book in enumerate(mbti_info["books"], start=1):
+        st.markdown(f"**{i}. {book}**")
+
+    # 추천 이유
+    st.subheader("💡 추천 이유")
+    st.info(mbti_info["reason"])
+
+    # 여행지 추천
+    st.subheader("🌴 이번 여름에 어울리는 여행지")
+    st.success(mbti_info["travel"])
